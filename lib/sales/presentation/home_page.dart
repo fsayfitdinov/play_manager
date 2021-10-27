@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:android_alarm_manager/android_alarm_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
-import 'package:play_manager/sales/application/barcode_scan_notifier.dart';
+import 'package:play_manager/core/application/barcode_scan_notifier.dart';
 import 'package:play_manager/sales/shared/providers.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
