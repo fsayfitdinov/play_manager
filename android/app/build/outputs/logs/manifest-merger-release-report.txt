@@ -1,0 +1,915 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+MERGED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-46:12
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-15:12
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-28:12
+MERGED from [:audioplayers] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/path_provider/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:device_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/device_info/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_app_badger] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:package_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/package_info/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [:android_alarm_manager] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/android_alarm_manager/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:15:1-33:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:17:1-58:12
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/185ad36de268c2dc7bba93401382a0b8/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-analytics:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d7f68d164529d8d5353a73e4641c3644/jetified-firebase-analytics-19.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:15:1-40:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e9f221a743ebd44967afde064c322560/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3351a56aacca2a8b33e4acbe09061d85/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/85a1cbfe0c1bb8df409c004f5e04d79a/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/556ee2e31b6825aa30f7a848e376ac6a/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e59fecc44b8ed37bd2853b24c6d2d06e/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b596fe8caa6383db0c6b51272ceacb6d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f6f9b5185760401455e890f73af4bf85/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c94ee818495195d21b31e3ac9d787279/jetified-play-services-measurement-sdk-19.0.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c088c8a2865a2b1e94f02e7663e666a/jetified-play-services-stats-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0f3986bffba2d28dd39f63764cf6473b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/208ddf95e71000a837e62f7541f071f3/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/03ae4404e3c6edb7fb6d13c19d522e78/jetified-firebase-components-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.media:media:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/52c2ef7865407274c574185f93d3f8c4/media-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/18b3feef316298d401d65819452a36ed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4dd44525c08b5bd87b3a83764f30bd06/jetified-play-services-vision-20.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/43abf5628e722d2436dd78c162f2dd43/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cefc7893b19c1df30a0e477461351ac3/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9f85894b28d5e05bf49b11ba0f5d747/jetified-play-services-flags-17.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/be671e00f62bda7ca21b7b078d3bc466/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4696974aabea4d8ee267316868f17e92/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/844e5e0c1664ac1254f61b9d353937d2/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2f2bb85a170f852a570d83a1968056c7/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/70a04d8a1fff572b39a4ca78359e1d7c/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/56392606824ea247b3b666c5a589c09a/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7657acc784a1188182f233332eb3965c/jetified-play-services-measurement-base-19.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cdfd75ad51c8dae8ea1e9bc30c2017ff/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/097e429c3ca5c606dbbdf106f2bfef8b/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c80ff888dfe92e356be31b70bdcf35f7/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e603b33b963120bd80dc3d00bd8033d/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7c30f005bfb698b9607117510dd7294e/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/11b4937630b553828e45db36b90ae353/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c00b0f4eb7c9bf1eaa885d3d94933547/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/99a2804f91a7e0498ff7e2a07f4bf4dd/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/80412cf025c798bddbbf7a5e4cb790ee/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c722b517e8b808679516ddab6fa22fc4/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3c178a8a6bb83230d7823ad7aeb81ee2/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0b6fc8848bb840284b6970031b61bfb8/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/5ff4e74e535f79882a75543671aadd43/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a87d3eb9e754cc6408a9516230c78a32/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6bfe487f69346e7348adc14fbad83035/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/420955020dfa0b2e15b20d3cac29fb14/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1b1c93084f1af5e37dfafc558107023f/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2ba0ac5aa38f1a22bcabff5ffa22a07d/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/33baf79c53cba54216110bc57c68336d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/10b44bd485124710c98be390845739d9/jetified-transport-api-3.0.0/AndroidManifest.xml:15:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b5f28734adeb771628b9eaf908add63f/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/beb075a080268255cff54c7b1bcbb4aa/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e4ae5128ba9e88f76231a19ecc1b3800/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b06f3c0490f15fdba5b3cfceb4226272/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/749397d4e6bf60214645a394741ac86b/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/72650ef84c9a326dc590a9aa8da96721/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a48f165364b81a7bbdb953c9396544a3/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/fb13f5532bcf45c90013bb54912b7d58/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8948057e35f7cb281ee4e1d0cc8dbd6f/jetified-threetenabp-1.2.3/AndroidManifest.xml:2:1-9:12
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:2:1-52:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/082cde81a8c87d1db67ad16f2c9d1c51/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+	package
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:2:5-39
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:1-66:12
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:5:3-64
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:10:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:5:20-62
+uses-permission#android.permission.CAMERA
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:6:3-62
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:6:20-60
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:7:3-78
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:7:20-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:8:3-65
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-68
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-68
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:23:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:8:20-63
+application
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:10:4-65:19
+MERGED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-44:19
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-13:19
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-19:19
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-19:19
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:12:5-26:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:23:5-31:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:27:5-56:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:28:5-36:19
+MERGED from [com.google.firebase:firebase-analytics:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d7f68d164529d8d5353a73e4641c3644/jetified-firebase-analytics-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d7f68d164529d8d5353a73e4641c3644/jetified-firebase-analytics-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3351a56aacca2a8b33e4acbe09061d85/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3351a56aacca2a8b33e4acbe09061d85/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/85a1cbfe0c1bb8df409c004f5e04d79a/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/85a1cbfe0c1bb8df409c004f5e04d79a/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c94ee818495195d21b31e3ac9d787279/jetified-play-services-measurement-sdk-19.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c94ee818495195d21b31e3ac9d787279/jetified-play-services-measurement-sdk-19.0.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:28:5-29:19
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c088c8a2865a2b1e94f02e7663e666a/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c088c8a2865a2b1e94f02e7663e666a/jetified-play-services-stats-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4dd44525c08b5bd87b3a83764f30bd06/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4dd44525c08b5bd87b3a83764f30bd06/jetified-play-services-vision-20.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/43abf5628e722d2436dd78c162f2dd43/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/43abf5628e722d2436dd78c162f2dd43/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cefc7893b19c1df30a0e477461351ac3/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cefc7893b19c1df30a0e477461351ac3/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/be671e00f62bda7ca21b7b078d3bc466/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/be671e00f62bda7ca21b7b078d3bc466/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4696974aabea4d8ee267316868f17e92/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4696974aabea4d8ee267316868f17e92/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/844e5e0c1664ac1254f61b9d353937d2/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/844e5e0c1664ac1254f61b9d353937d2/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/70a04d8a1fff572b39a4ca78359e1d7c/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/70a04d8a1fff572b39a4ca78359e1d7c/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/56392606824ea247b3b666c5a589c09a/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/56392606824ea247b3b666c5a589c09a/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7657acc784a1188182f233332eb3965c/jetified-play-services-measurement-base-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7657acc784a1188182f233332eb3965c/jetified-play-services-measurement-base-19.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:25:5-39:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:25:5-39:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b06f3c0490f15fdba5b3cfceb4226272/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b06f3c0490f15fdba5b3cfceb4226272/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8948057e35f7cb281ee4e1d0cc8dbd6f/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8948057e35f7cb281ee4e1d0cc8dbd6f/jetified-threetenabp-1.2.3/AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:11:9-37
+	android:largeHeap
+		ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-33
+	android:icon
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:17:9-59
+activity#com.example.play_manager.MainActivity
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:13:9-41:20
+	android:launchMode
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:15:13-43
+	android:hardwareAccelerated
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:18:13-47
+	android:windowSoftInputMode
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:19:13-55
+	android:configChanges
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:17:13-163
+	android:theme
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:16:13-47
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:14:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:24:13-27:17
+	android:resource
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:26:15-52
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:25:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:33:13-36:17
+	android:resource
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:35:15-61
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:34:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:39:17-76
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:39:27-74
+meta-data#flutterEmbedding
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:44:9-46:33
+	android:value
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:46:13-30
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:45:13-44
+service#io.flutter.plugins.androidalarmmanager.AlarmService
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:49:9-52:39
+	android:exported
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:52:13-37
+	android:permission
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:51:13-69
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:50:13-79
+receiver#io.flutter.plugins.androidalarmmanager.AlarmBroadcastReceiver
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:53:9-55:39
+	android:exported
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:55:13-37
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:54:13-89
+receiver#io.flutter.plugins.androidalarmmanager.RebootBroadcastReceiver
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:56:9-62:20
+	android:enabled
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:57:13-90
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:59:13-61:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:60:17-78
+	android:name
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml:60:25-76
+uses-sdk
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/shared_preferences/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:audioplayers] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-44
+MERGED from [:audioplayers] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/audioplayers/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-44
+MERGED from [:path_provider] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/path_provider/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:path_provider] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/path_provider/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/device_info/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:device_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/device_info/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_app_badger] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_app_badger/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/package_info/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:package_info] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/package_info/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/android_alarm_manager/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/android_alarm_manager/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/185ad36de268c2dc7bba93401382a0b8/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-encoders-json:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/185ad36de268c2dc7bba93401382a0b8/jetified-firebase-encoders-json-18.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-analytics:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d7f68d164529d8d5353a73e4641c3644/jetified-firebase-analytics-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d7f68d164529d8d5353a73e4641c3644/jetified-firebase-analytics-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e9f221a743ebd44967afde064c322560/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e9f221a743ebd44967afde064c322560/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3351a56aacca2a8b33e4acbe09061d85/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3351a56aacca2a8b33e4acbe09061d85/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/85a1cbfe0c1bb8df409c004f5e04d79a/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/85a1cbfe0c1bb8df409c004f5e04d79a/constraintlayout-2.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/556ee2e31b6825aa30f7a848e376ac6a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/556ee2e31b6825aa30f7a848e376ac6a/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e59fecc44b8ed37bd2853b24c6d2d06e/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e59fecc44b8ed37bd2853b24c6d2d06e/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b596fe8caa6383db0c6b51272ceacb6d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b596fe8caa6383db0c6b51272ceacb6d/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f6f9b5185760401455e890f73af4bf85/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f6f9b5185760401455e890f73af4bf85/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c94ee818495195d21b31e3ac9d787279/jetified-play-services-measurement-sdk-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c94ee818495195d21b31e3ac9d787279/jetified-play-services-measurement-sdk-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c088c8a2865a2b1e94f02e7663e666a/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c088c8a2865a2b1e94f02e7663e666a/jetified-play-services-stats-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0f3986bffba2d28dd39f63764cf6473b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0f3986bffba2d28dd39f63764cf6473b/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/208ddf95e71000a837e62f7541f071f3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/208ddf95e71000a837e62f7541f071f3/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/03ae4404e3c6edb7fb6d13c19d522e78/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/03ae4404e3c6edb7fb6d13c19d522e78/jetified-firebase-components-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.media:media:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/52c2ef7865407274c574185f93d3f8c4/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/52c2ef7865407274c574185f93d3f8c4/media-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/18b3feef316298d401d65819452a36ed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/18b3feef316298d401d65819452a36ed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4dd44525c08b5bd87b3a83764f30bd06/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:20.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4dd44525c08b5bd87b3a83764f30bd06/jetified-play-services-vision-20.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/43abf5628e722d2436dd78c162f2dd43/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:19.1.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/43abf5628e722d2436dd78c162f2dd43/jetified-play-services-vision-common-19.1.3/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cefc7893b19c1df30a0e477461351ac3/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cefc7893b19c1df30a0e477461351ac3/jetified-play-services-clearcut-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9f85894b28d5e05bf49b11ba0f5d747/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9f85894b28d5e05bf49b11ba0f5d747/jetified-play-services-flags-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/be671e00f62bda7ca21b7b078d3bc466/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/be671e00f62bda7ca21b7b078d3bc466/jetified-play-services-phenotype-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4696974aabea4d8ee267316868f17e92/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/4696974aabea4d8ee267316868f17e92/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/844e5e0c1664ac1254f61b9d353937d2/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:17.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/844e5e0c1664ac1254f61b9d353937d2/jetified-firebase-iid-interop-17.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2f2bb85a170f852a570d83a1968056c7/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2f2bb85a170f852a570d83a1968056c7/jetified-firebase-installations-interop-17.0.0/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/70a04d8a1fff572b39a4ca78359e1d7c/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/70a04d8a1fff572b39a4ca78359e1d7c/jetified-play-services-tasks-17.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/56392606824ea247b3b666c5a589c09a/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/56392606824ea247b3b666c5a589c09a/jetified-play-services-ads-identifier-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7657acc784a1188182f233332eb3965c/jetified-play-services-measurement-base-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7657acc784a1188182f233332eb3965c/jetified-play-services-measurement-base-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cdfd75ad51c8dae8ea1e9bc30c2017ff/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/cdfd75ad51c8dae8ea1e9bc30c2017ff/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/097e429c3ca5c606dbbdf106f2bfef8b/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/097e429c3ca5c606dbbdf106f2bfef8b/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c80ff888dfe92e356be31b70bdcf35f7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c80ff888dfe92e356be31b70bdcf35f7/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e603b33b963120bd80dc3d00bd8033d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e603b33b963120bd80dc3d00bd8033d/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7c30f005bfb698b9607117510dd7294e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/7c30f005bfb698b9607117510dd7294e/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/11b4937630b553828e45db36b90ae353/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/11b4937630b553828e45db36b90ae353/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c00b0f4eb7c9bf1eaa885d3d94933547/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c00b0f4eb7c9bf1eaa885d3d94933547/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/99a2804f91a7e0498ff7e2a07f4bf4dd/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/99a2804f91a7e0498ff7e2a07f4bf4dd/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/80412cf025c798bddbbf7a5e4cb790ee/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/80412cf025c798bddbbf7a5e4cb790ee/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c722b517e8b808679516ddab6fa22fc4/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c722b517e8b808679516ddab6fa22fc4/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3c178a8a6bb83230d7823ad7aeb81ee2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/3c178a8a6bb83230d7823ad7aeb81ee2/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0b6fc8848bb840284b6970031b61bfb8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/0b6fc8848bb840284b6970031b61bfb8/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/5ff4e74e535f79882a75543671aadd43/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/5ff4e74e535f79882a75543671aadd43/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a87d3eb9e754cc6408a9516230c78a32/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a87d3eb9e754cc6408a9516230c78a32/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6bfe487f69346e7348adc14fbad83035/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6bfe487f69346e7348adc14fbad83035/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/bb37e3e2474c269d5f6cca6eda5ea1d1/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/420955020dfa0b2e15b20d3cac29fb14/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/420955020dfa0b2e15b20d3cac29fb14/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1b1c93084f1af5e37dfafc558107023f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1b1c93084f1af5e37dfafc558107023f/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2ba0ac5aa38f1a22bcabff5ffa22a07d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/2ba0ac5aa38f1a22bcabff5ffa22a07d/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/33baf79c53cba54216110bc57c68336d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/33baf79c53cba54216110bc57c68336d/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/10b44bd485124710c98be390845739d9/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.android.datatransport:transport-api:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/10b44bd485124710c98be390845739d9/jetified-transport-api-3.0.0/AndroidManifest.xml:18:5-20:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b5f28734adeb771628b9eaf908add63f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b5f28734adeb771628b9eaf908add63f/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/beb075a080268255cff54c7b1bcbb4aa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/beb075a080268255cff54c7b1bcbb4aa/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e4ae5128ba9e88f76231a19ecc1b3800/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e4ae5128ba9e88f76231a19ecc1b3800/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b06f3c0490f15fdba5b3cfceb4226272/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b06f3c0490f15fdba5b3cfceb4226272/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/749397d4e6bf60214645a394741ac86b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/749397d4e6bf60214645a394741ac86b/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/72650ef84c9a326dc590a9aa8da96721/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/72650ef84c9a326dc590a9aa8da96721/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a48f165364b81a7bbdb953c9396544a3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/a48f165364b81a7bbdb953c9396544a3/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/fb13f5532bcf45c90013bb54912b7d58/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/fb13f5532bcf45c90013bb54912b7d58/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8948057e35f7cb281ee4e1d0cc8dbd6f/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8948057e35f7cb281ee4e1d0cc8dbd6f/jetified-threetenabp-1.2.3/AndroidManifest.xml:5:5-44
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/082cde81a8c87d1db67ad16f2c9d1c51/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/082cde81a8c87d1db67ad16f2c9d1c51/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/farkhodv2/AndroidStudioProjects/playmanager/android/app/src/main/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:9-37:19
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:24:9-30:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:49:9-55:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:25:9-31:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:26:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_crashlytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-130
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:7:5-79
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/12750819a355f4abcd54214d9769dca2/jetified-play-services-measurement-sdk-api-19.0.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:7:22-76
+meta-data#com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_analytics/intermediates/merged_manifest/release/AndroidManifest.xml:14:17-127
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:12:9-15:72
+	android:exported
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-37
+	android:permission
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-69
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-107
+service#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-22:19
+	android:exported
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-97
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-21:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:17-78
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:25-75
+receiver#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:9-31:20
+	android:exported
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:27:13-73
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-98
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-30:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:17-81
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:25-78
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-36:85
+	android:value
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:36:17-82
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:35:17-128
+provider#io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider
+ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:9-43:38
+	android:authorities
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-88
+	android:exported
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:42:13-37
+	android:initOrder
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:13-35
+	android:name
+		ADDED from [:firebase_messaging] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-102
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+uses-feature#android.hardware.camera
+ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:11:19-57
+uses-permission#android.permission.FLASHLIGHT
+ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-69
+	android:name
+		ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:13:22-66
+activity#com.amolg.flutterbarcodescanner.BarcodeCaptureActivity
+ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-91
+	android:name
+		ADDED from [:ps_flutter_barcode_scanner] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/ps_flutter_barcode_scanner/intermediates/merged_manifest/release/AndroidManifest.xml:18:19-88
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-78
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-76
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-24:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] /Users/farkhodv2/AndroidStudioProjects/playmanager/build/flutter_local_notifications/intermediates/merged_manifest/release/AndroidManifest.xml:23:25-79
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.ktx.FirebaseCrashlyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:27:13-29:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:29:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics-ktx:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/6e1f72f052a422590c75389176d91606/jetified-firebase-crashlytics-ktx-18.2.3/AndroidManifest.xml:28:17-130
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/adc571a86212b6cafa8797c74aacb08e/jetified-firebase-analytics-ktx-19.0.2/AndroidManifest.xml:12:17-126
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/de6aeb0bfee146a7e978bd1d11a6d46b/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+meta-data#com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar
+ADDED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-crashlytics:18.2.3] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/20848030f7c7b12caebfbf4fbe8796e0/jetified-firebase-crashlytics-18.2.3/AndroidManifest.xml:19:17-115
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+MERGED from [com.google.android.gms:play-services-cloud-messaging:16.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/e7c4d07926b9026f1e64a0be2e4e717e/jetified-play-services-cloud-messaging-16.0.0/AndroidManifest.xml:11:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+meta-data#com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar
+ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+	android:value
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:22.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/522fa8e894083b668c0fb143c2283e7e/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+meta-data#com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar
+ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-datatransport:18.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/667cfc4b93a10900d5ca3293923ece2d/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+service#com.google.android.datatransport.runtime.backends.TransportBackendDiscovery
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:36:9-38:40
+MERGED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+meta-data#backend:com.google.android.datatransport.cct.CctBackendFactory
+ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+	android:value
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+	android:name
+		ADDED from [com.google.android.datatransport:transport-backend-cct:3.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/c44e42315023f62c314596773031f795/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b44c8ecef1e29398a529340aa197478c/jetified-play-services-measurement-api-19.0.2/AndroidManifest.xml:31:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/d4f95b2e32949e3ec6047358e0898ef7/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.0.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/31f893d5c621c9df4791ef3434ca2f54/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/9c1198f0a2a6a6e8bba34977abcbca58/jetified-play-services-measurement-impl-19.0.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:19.0.2] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/1f61f65010e6a50afb2067e4cff5efec/jetified-play-services-measurement-19.0.2/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/b1d3eaefe7dc6924494157b330843530/jetified-play-services-base-17.4.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.4.0] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/8607eb4751f86e7680626ac84ed6e053/jetified-play-services-basement-17.4.0/AndroidManifest.xml:24:13-58
+service#com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:26:9-30:19
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:28:13-37
+	android:permission
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:29:13-69
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:27:13-117
+receiver#com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver
+ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [com.google.android.datatransport:transport-runtime:3.0.1] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/f9e577946f372e3a34c63a625db2b571/jetified-transport-runtime-3.0.1/AndroidManifest.xml:33:13-132
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.22] /Users/farkhodv2/.gradle/caches/transforms-2/files-2.1/74bbddde4ad396ffade78d8f649ae74a/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86

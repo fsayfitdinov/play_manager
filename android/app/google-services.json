@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "974793572155",
+    "project_id": "play-manager-db27d",
+    "storage_bucket": "play-manager-db27d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974793572155:android:7dbbf64f270f7014e7411e",
+        "android_client_info": {
+          "package_name": "uz.play_manager.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974793572155-i2a9cpjuvb9jsjoi2ef1pe01rfap6ij2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPvYYmEx6eQchhRefLUIdjc7rNuRbmBV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974793572155-i2a9cpjuvb9jsjoi2ef1pe01rfap6ij2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">974793572155-i2a9cpjuvb9jsjoi2ef1pe01rfap6ij2.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">974793572155</string>
+    <string name="google_api_key" translatable="false">AIzaSyDPvYYmEx6eQchhRefLUIdjc7rNuRbmBV8</string>
+    <string name="google_app_id" translatable="false">1:974793572155:android:7dbbf64f270f7014e7411e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDPvYYmEx6eQchhRefLUIdjc7rNuRbmBV8</string>
+    <string name="google_storage_bucket" translatable="false">play-manager-db27d.appspot.com</string>
+    <string name="project_id" translatable="false">play-manager-db27d</string>
+</resources>
