@@ -6,17 +6,19 @@ import '../../../splash/presentation/splash_page.dart';
 
 @CupertinoAutoRouter(
   routes: [
-    CupertinoRoute(
+    AutoRoute(
       page: SplashPage,
       initial: true,
     ),
-    CupertinoRoute(
+    CustomRoute(
       page: SignInPage,
       path: '/auth',
+      transitionsBuilder: TransitionsBuilders.fadeIn,
     ),
-    CupertinoRoute(
+    CustomRoute(
       page: HomePage,
       path: '/home',
+      transitionsBuilder: TransitionsBuilders.fadeIn,
     ),
   ],
   replaceInRouteName: 'Page,Route',
