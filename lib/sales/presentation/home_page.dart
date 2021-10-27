@@ -3,19 +3,18 @@ import 'dart:io';
 import 'package:android_alarm_manager/android_alarm_manager.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:play_manager/sales/application/barcode_scan_notifier.dart';
+import 'package:play_manager/sales/shared/providers.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
-import 'package:play_manager/core/presentation/custom_loading_widget.dart';
 import 'package:play_manager/core/presentation/errors.dart';
 import 'package:play_manager/core/shared/providers.dart';
-import 'package:play_manager/scanner/application/barcode_scan_notifier.dart';
-import 'package:play_manager/scanner/shared/providers.dart';
+import 'package:play_manager/main.dart';
 
-import '../../main.dart';
 import 'custom_appbar.dart';
 import 'custom_fab.dart';
 import 'error_with_retry.dart';
-import 'sales/sales_list.dart';
+import 'sales_list.dart';
 
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -72,7 +71,7 @@ class _HomePageState extends ConsumerState<HomePage> {
         },
       ),
       body: (state.loading)
-          ? const CustomLoadingWidget()
+          ? const Center(child: CircularProgressIndicator())
           : state.hasError && !state.loading
               ? ErrorWithRetry(
                   error: state.error,

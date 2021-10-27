@@ -12,7 +12,7 @@ import 'package:auto_route/auto_route.dart' as _i4;
 import 'package:flutter/material.dart' as _i5;
 
 import '../../../auth/presentation/sign_in_page.dart' as _i2;
-import '../../../scanner/presentation/home_page.dart' as _i3;
+import '../../../sales/presentation/home_page.dart' as _i3;
 import '../../../splash/presentation/splash_page.dart' as _i1;
 
 class AppRouter extends _i4.RootStackRouter {
@@ -26,12 +26,20 @@ class AppRouter extends _i4.RootStackRouter {
           routeData: routeData, child: const _i1.SplashPage());
     },
     SignInRoute.name: (routeData) {
-      return _i4.CupertinoPageX<dynamic>(
-          routeData: routeData, child: const _i2.SignInPage());
+      return _i4.CustomPage<dynamic>(
+          routeData: routeData,
+          child: const _i2.SignInPage(),
+          transitionsBuilder: _i4.TransitionsBuilders.fadeIn,
+          opaque: true,
+          barrierDismissible: false);
     },
     HomeRoute.name: (routeData) {
-      return _i4.CupertinoPageX<dynamic>(
-          routeData: routeData, child: const _i3.HomePage());
+      return _i4.CustomPage<dynamic>(
+          routeData: routeData,
+          child: const _i3.HomePage(),
+          transitionsBuilder: _i4.TransitionsBuilders.fadeIn,
+          opaque: true,
+          barrierDismissible: false);
     }
   };
 

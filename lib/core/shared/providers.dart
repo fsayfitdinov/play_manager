@@ -1,5 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
+import 'package:play_manager/core/infrastructure/barcode_scanner.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'package:play_manager/auth/shared/providers.dart';
@@ -8,7 +9,6 @@ import 'package:play_manager/core/infrastructure/analytics_service.dart';
 import 'package:play_manager/core/infrastructure/device_details.dart';
 import 'package:play_manager/core/infrastructure/hive_datastore.dart';
 import 'package:play_manager/core/presentation/dialogs.dart';
-import 'package:play_manager/scanner/infrastructure/barcode_scanner.dart';
 
 final appConfigProvider = Provider<AppConfig>(
   (_) => throw UnimplementedError(),

@@ -2,7 +2,7 @@ import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'package:play_manager/core/domain/failure.dart';
-import 'package:play_manager/scanner/infrastructure/barcode_scanner.dart';
+import 'package:play_manager/core/infrastructure/barcode_scanner.dart';
 
 part 'barcode_scan_notifier.freezed.dart';
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
-import '../../../core/domain/order.dart';
+import '../../core/domain/order.dart';
 import 'components/data_row_list.dart';
 import 'components/headers.dart';
 
