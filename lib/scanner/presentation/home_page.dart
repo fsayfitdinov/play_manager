@@ -44,7 +44,7 @@ class _HomePageState extends ConsumerState<HomePage> {
         await AndroidAlarmManager.periodic(
           const Duration(minutes: 1),
           0,
-          printHello,
+          getOrdersInBackground,
           wakeup: true,
           rescheduleOnReboot: true,
         );
