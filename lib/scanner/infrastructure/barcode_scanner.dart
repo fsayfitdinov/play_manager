@@ -1,10 +1,10 @@
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 
 import 'package:play_manager/auth/infrastructure/auth_local_service.dart';
 import 'package:play_manager/core/domain/failure.dart';
 import 'package:play_manager/core/infrastructure/dio_extensions.dart';
-import 'package:ps_flutter_barcode_scanner/ps_flutter_barcode_scanner.dart';
 
 class BarcodeScanner {
   final AuthLocalService _localService;

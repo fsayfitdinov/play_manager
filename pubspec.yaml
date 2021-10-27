@@ -36,7 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   auto_route: ^3.0.1
   material_design_icons_flutter: ^5.0.6295
-  ps_flutter_barcode_scanner: ^1.0.1
+  flutter_barcode_scanner: ^2.0.0
   flutter_svg: ^0.22.0
   dio: ^4.0.0
   json_annotation: ^4.1.0
