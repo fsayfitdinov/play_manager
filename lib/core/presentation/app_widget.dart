@@ -26,18 +26,7 @@ class AppWidget extends ConsumerWidget {
             const SignInRoute(),
             predicate: (route) => false,
           ),
-          // failure: (failure) => Fluttertoast.showToast(
-          //   msg: failure.failure.maybeMap(
-          //     server: (err) => '${err.message}',
-          //     noConnection: (_) => 'Нет подключения к Интернету',
-          //     orElse: () => '',
-          //   ),
-          //   toastLength: Toast.LENGTH_SHORT,
-          //   gravity: ToastGravity.CENTER,
-          //   backgroundColor: Colors.red,
-          //   textColor: Colors.white,
-          //   fontSize: 16.0,
-          // ),
+ 
           orElse: () {},
         );
       },

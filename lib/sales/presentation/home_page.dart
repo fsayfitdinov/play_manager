@@ -9,7 +9,6 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 
 import 'package:play_manager/core/presentation/errors.dart';
 import 'package:play_manager/core/shared/providers.dart';
-import 'package:play_manager/main.dart';
 
 import 'custom_appbar.dart';
 import 'custom_fab.dart';
@@ -39,15 +38,15 @@ class _HomePageState extends ConsumerState<HomePage> {
     Future.microtask(() async {
       await ref.read(dataNotifierProvider.notifier).getOrders();
 
-      if (Platform.isAndroid) {
-        await AndroidAlarmManager.periodic(
-          const Duration(minutes: 1),
-          0,
-          getOrdersInBackground,
-          wakeup: true,
-          rescheduleOnReboot: true,
-        );
-      }
+      // if (Platform.isAndroid) {
+      //   await AndroidAlarmManager.periodic(
+      //     const Duration(minutes: 1),
+      //     0,
+      //     getOrdersInBackground,
+      //     wakeup: true,
+      //     rescheduleOnReboot: true,
+      //   );
+      // }
     });
   }
 
