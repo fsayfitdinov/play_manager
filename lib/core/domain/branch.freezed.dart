@@ -190,15 +190,20 @@ class _$_Branch extends _Branch {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _Branch &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.address, address) || other.address == address) &&
-            (identical(other.description, description) ||
-                other.description == description));
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality().equals(other.address, address) &&
+            const DeepCollectionEquality()
+                .equals(other.description, description));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, id, name, address, description);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(address),
+      const DeepCollectionEquality().hash(description));
 
   @JsonKey(ignore: true)
   @override

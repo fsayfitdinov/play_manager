@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_dynamic_calls
+
 import 'package:dartz/dartz.dart';
 import 'package:dio/dio.dart';
 import 'package:play_manager/auth/infrastructure/auth_local_service.dart';
@@ -20,10 +22,8 @@ class DataGetter {
         data: FormData.fromMap({"id": '${user?.id}'}),
       );
       if (response.statusCode == 200 && response.data['stateCode'] == 200) {
-        final ordersData = (response.data['orders'] as List<dynamic>)
-            .cast<Map<String, dynamic>>();
-        final orders =
-            ordersData.map((json) => OrderModel.fromJson(json)).toList();
+        final ordersData = (response.data['orders'] as List<dynamic>).cast<Map<String, dynamic>>();
+        final orders = ordersData.map((json) => OrderModel.fromJson(json)).toList();
         return right(orders);
       } else {
         return left(Failure.server(response.data['message'].toString()));

@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_dynamic_calls
+
 import 'dart:convert';
 
 import 'package:dio/dio.dart';
@@ -5,9 +7,9 @@ import 'package:flutter/services.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import 'core/domain/app_config.dart';
-import 'core/infrastructure/device_details.dart';
-import 'core/infrastructure/hive_datastore.dart';
+import 'package:play_manager/core/domain/app_config.dart';
+import 'package:play_manager/core/infrastructure/device_details.dart';
+import 'package:play_manager/core/infrastructure/hive_datastore.dart';
 
 part 'injection.freezed.dart';
 

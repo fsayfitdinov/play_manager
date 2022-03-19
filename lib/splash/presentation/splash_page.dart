@@ -18,7 +18,9 @@ class _SplashPageState extends ConsumerState<SplashPage> {
     super.initState();
     Future.delayed(
       const Duration(seconds: 1),
-      () => ref.read(authNotifierProvider.notifier).checkAndUpdateStatus(),
+      () {
+        ref.read(authNotifierProvider.notifier).checkAndUpdateStatus();
+      },
     );
   }
 

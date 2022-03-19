@@ -213,22 +213,27 @@ class _$_DeviceDetails extends _DeviceDetails {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _DeviceDetails &&
-            (identical(other.appVersion, appVersion) ||
-                other.appVersion == appVersion) &&
-            (identical(other.system, system) || other.system == system) &&
-            (identical(other.systemVersion, systemVersion) ||
-                other.systemVersion == systemVersion) &&
-            (identical(other.deviceId, deviceId) ||
-                other.deviceId == deviceId) &&
-            (identical(other.deviceName, deviceName) ||
-                other.deviceName == deviceName) &&
-            (identical(other.systemName, systemName) ||
-                other.systemName == systemName));
+            const DeepCollectionEquality()
+                .equals(other.appVersion, appVersion) &&
+            const DeepCollectionEquality().equals(other.system, system) &&
+            const DeepCollectionEquality()
+                .equals(other.systemVersion, systemVersion) &&
+            const DeepCollectionEquality().equals(other.deviceId, deviceId) &&
+            const DeepCollectionEquality()
+                .equals(other.deviceName, deviceName) &&
+            const DeepCollectionEquality()
+                .equals(other.systemName, systemName));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, appVersion, system,
-      systemVersion, deviceId, deviceName, systemName);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(appVersion),
+      const DeepCollectionEquality().hash(system),
+      const DeepCollectionEquality().hash(systemVersion),
+      const DeepCollectionEquality().hash(deviceId),
+      const DeepCollectionEquality().hash(deviceName),
+      const DeepCollectionEquality().hash(systemName));
 
   @JsonKey(ignore: true)
   @override

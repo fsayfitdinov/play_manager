@@ -5,9 +5,9 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/material.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
-import 'core/presentation/app_widget.dart';
-import 'core/shared/providers.dart';
-import 'injection.dart';
+import 'package:play_manager/core/presentation/app_widget.dart';
+import 'package:play_manager/core/shared/providers.dart';
+import 'package:play_manager/injection.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,6 @@ Future<void> main() async {
 
   final injection = Injection();
   final appInjections = await injection.setUpInjection();
-
 
   runApp(
     ProviderScope(
@@ -31,4 +30,3 @@ Future<void> main() async {
     ),
   );
 }
-

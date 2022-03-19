@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:play_manager/sales/presentation/home_page.dart';
 
-import '../../../auth/presentation/sign_in_page.dart';
-import '../../../splash/presentation/splash_page.dart';
+import 'package:play_manager/auth/presentation/sign_in_page.dart';
+import 'package:play_manager/splash/presentation/splash_page.dart';
 
 @CupertinoAutoRouter(
   routes: [

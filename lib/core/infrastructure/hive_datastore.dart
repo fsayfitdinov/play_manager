@@ -1,11 +1,9 @@
-import 'package:hive/hive.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 
-import '../domain/user_model.dart';
+import 'package:play_manager/core/domain/user_model.dart';
 
 class HiveDataStore {
   static const userBox = 'userBox';
-  static const videoBox = 'videoBox';
 
   Future<void> init() async {
     // init Hive

@@ -19,11 +19,11 @@ class BarcodeScanState with _$BarcodeScanState {
 class BarcodeScanNotifier extends StateNotifier<BarcodeScanState> {
   final BarcodeScanner _barcodeScanner;
 
-  BarcodeScanNotifier(this._barcodeScanner)
-      : super(const BarcodeScanState.inital());
+  BarcodeScanNotifier(this._barcodeScanner) : super(const BarcodeScanState.inital());
 
   Future<void> scanBarCode() async {
     final barcode = await _barcodeScanner.scanBarcode();
+
     state = const BarcodeScanState.loading();
     final failureOrSuccess = await _barcodeScanner.getChequeStatus(barcode);
 
@@ -31,7 +31,7 @@ class BarcodeScanNotifier extends StateNotifier<BarcodeScanState> {
       (failure) => state = BarcodeScanState.error(failure),
       (_) async {
         final failOrSuccess = await _barcodeScanner.closeCheque(barcode);
-        failOrSuccess.fold(
+        return failOrSuccess.fold(
           (fail) => state = BarcodeScanState.error(fail),
           (_) => state = const BarcodeScanState.success(),
         );

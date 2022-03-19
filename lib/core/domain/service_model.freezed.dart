@@ -315,25 +315,32 @@ class _$_ServiceModel extends _ServiceModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _ServiceModel &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.branchId, branchId) ||
-                other.branchId == branchId) &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.price, price) || other.price == price) &&
-            (identical(other.delta, delta) || other.delta == delta) &&
-            (identical(other.position, position) ||
-                other.position == position) &&
-            (identical(other.description, description) ||
-                other.description == description) &&
-            (identical(other.author, author) || other.author == author) &&
-            (identical(other.date, date) || other.date == date) &&
-            (identical(other.isActive, isActive) ||
-                other.isActive == isActive));
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.branchId, branchId) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality().equals(other.price, price) &&
+            const DeepCollectionEquality().equals(other.delta, delta) &&
+            const DeepCollectionEquality().equals(other.position, position) &&
+            const DeepCollectionEquality()
+                .equals(other.description, description) &&
+            const DeepCollectionEquality().equals(other.author, author) &&
+            const DeepCollectionEquality().equals(other.date, date) &&
+            const DeepCollectionEquality().equals(other.isActive, isActive));
   }
 
   @override
-  int get hashCode => Object.hash(runtimeType, id, branchId, name, price, delta,
-      position, description, author, date, isActive);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(branchId),
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(price),
+      const DeepCollectionEquality().hash(delta),
+      const DeepCollectionEquality().hash(position),
+      const DeepCollectionEquality().hash(description),
+      const DeepCollectionEquality().hash(author),
+      const DeepCollectionEquality().hash(date),
+      const DeepCollectionEquality().hash(isActive));
 
   @JsonKey(ignore: true)
   @override

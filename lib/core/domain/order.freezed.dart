@@ -364,45 +364,42 @@ class _$_OrderModel extends _OrderModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _OrderModel &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.branchId, branchId) ||
-                other.branchId == branchId) &&
-            (identical(other.serviceId, serviceId) ||
-                other.serviceId == serviceId) &&
-            (identical(other.serviceName, serviceName) ||
-                other.serviceName == serviceName) &&
-            (identical(other.roomId, roomId) || other.roomId == roomId) &&
-            (identical(other.roomName, roomName) ||
-                other.roomName == roomName) &&
-            (identical(other.price, price) || other.price == price) &&
-            (identical(other.clientName, clientName) ||
-                other.clientName == clientName) &&
-            (identical(other.startDateTime, startDateTime) ||
-                other.startDateTime == startDateTime) &&
-            (identical(other.endDateTime, endDateTime) ||
-                other.endDateTime == endDateTime) &&
-            (identical(other.delta, delta) || other.delta == delta) &&
-            (identical(other.isVip, isVip) || other.isVip == isVip) &&
-            (identical(other.totalPrice, totalPrice) ||
-                other.totalPrice == totalPrice));
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.branchId, branchId) &&
+            const DeepCollectionEquality().equals(other.serviceId, serviceId) &&
+            const DeepCollectionEquality()
+                .equals(other.serviceName, serviceName) &&
+            const DeepCollectionEquality().equals(other.roomId, roomId) &&
+            const DeepCollectionEquality().equals(other.roomName, roomName) &&
+            const DeepCollectionEquality().equals(other.price, price) &&
+            const DeepCollectionEquality()
+                .equals(other.clientName, clientName) &&
+            const DeepCollectionEquality()
+                .equals(other.startDateTime, startDateTime) &&
+            const DeepCollectionEquality()
+                .equals(other.endDateTime, endDateTime) &&
+            const DeepCollectionEquality().equals(other.delta, delta) &&
+            const DeepCollectionEquality().equals(other.isVip, isVip) &&
+            const DeepCollectionEquality()
+                .equals(other.totalPrice, totalPrice));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      id,
-      branchId,
-      serviceId,
-      serviceName,
-      roomId,
-      roomName,
-      price,
-      clientName,
-      startDateTime,
-      endDateTime,
-      delta,
-      isVip,
-      totalPrice);
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(branchId),
+      const DeepCollectionEquality().hash(serviceId),
+      const DeepCollectionEquality().hash(serviceName),
+      const DeepCollectionEquality().hash(roomId),
+      const DeepCollectionEquality().hash(roomName),
+      const DeepCollectionEquality().hash(price),
+      const DeepCollectionEquality().hash(clientName),
+      const DeepCollectionEquality().hash(startDateTime),
+      const DeepCollectionEquality().hash(endDateTime),
+      const DeepCollectionEquality().hash(delta),
+      const DeepCollectionEquality().hash(isVip),
+      const DeepCollectionEquality().hash(totalPrice));
 
   @JsonKey(ignore: true)
   @override

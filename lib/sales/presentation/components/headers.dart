@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'data_header.dart';
+import 'package:play_manager/sales/presentation/components/data_header.dart';
 
 class CustomHeaders extends StatelessWidget {
   const CustomHeaders({Key? key}) : super(key: key);

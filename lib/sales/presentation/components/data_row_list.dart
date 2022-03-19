@@ -8,7 +8,7 @@ import 'package:play_manager/core/domain/order.dart';
 import 'package:play_manager/core/infrastructure/order_extensions.dart';
 import 'package:play_manager/core/infrastructure/string_extensions.dart';
 
-import 'data_row.dart';
+import 'package:play_manager/sales/presentation/components/data_row.dart';
 
 class DataRowList extends StatelessWidget {
   final List<OrderModel> orders;
@@ -36,9 +36,7 @@ class DataRowList extends StatelessWidget {
                 itemBuilder: (_, index) {
                   final item = orders[index];
                   return Container(
-                    color: item.endDateTime.hasExpired
-                        ? const Color.fromRGBO(254, 224, 220, 1)
-                        : Colors.white,
+                    color: item.endDateTime.hasExpired ? const Color.fromRGBO(254, 224, 220, 1) : Colors.white,
                     child: GestureDetector(
                       onTap: () async {
                         await showFlashDialog(context, item);
@@ -108,13 +106,10 @@ class DataRowList extends StatelessWidget {
           DialogRowText(label: 'Услуга', text: item.serviceName),
           DialogRowText(label: 'Комната', text: item.roomName),
           DialogRowText(label: 'Клиент', text: item.clientName),
-          DialogRowText(
-              label: 'Цена', text: "${item.price.formattedPrice} сум"),
+          DialogRowText(label: 'Цена', text: "${item.price.formattedPrice} сум"),
           DialogRowText(label: 'Дельта', text: "${item.delta} мин"),
-          DialogRowText(
-              label: 'Дата начало', text: item.startDateTime.formattedDate),
-          DialogRowText(
-              label: 'Дата окончания', text: item.endDateTime.formattedDate),
+          DialogRowText(label: 'Дата начало', text: item.startDateTime.formattedDate),
+          DialogRowText(label: 'Дата окончания', text: item.endDateTime.formattedDate),
           DialogRowText(label: 'Время', text: item.getDuration()),
           DialogRowText(
             label: 'Итого',

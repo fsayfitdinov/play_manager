@@ -51,23 +51,26 @@ class AppRouter extends _i4.RootStackRouter {
       ];
 }
 
-/// generated route for [_i1.SplashPage]
+/// generated route for
+/// [_i1.SplashPage]
 class SplashRoute extends _i4.PageRouteInfo<void> {
-  const SplashRoute() : super(name, path: '/');
+  const SplashRoute() : super(SplashRoute.name, path: '/');
 
   static const String name = 'SplashRoute';
 }
 
-/// generated route for [_i2.SignInPage]
+/// generated route for
+/// [_i2.SignInPage]
 class SignInRoute extends _i4.PageRouteInfo<void> {
-  const SignInRoute() : super(name, path: '/auth');
+  const SignInRoute() : super(SignInRoute.name, path: '/auth');
 
   static const String name = 'SignInRoute';
 }
 
-/// generated route for [_i3.HomePage]
+/// generated route for
+/// [_i3.HomePage]
 class HomeRoute extends _i4.PageRouteInfo<void> {
-  const HomeRoute() : super(name, path: '/home');
+  const HomeRoute() : super(HomeRoute.name, path: '/home');
 
   static const String name = 'HomeRoute';
 }

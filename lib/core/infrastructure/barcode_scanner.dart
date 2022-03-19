@@ -27,12 +27,13 @@ class BarcodeScanner {
     try {
       final response = await _dio.post(
         '/get-cheque',
-        data: FormData.fromMap({"id": user, 'order_id': orderId}),
+        data: FormData.fromMap({"id": user?.id, 'order_id': orderId}),
       );
+
       if (response.statusCode == 200 && response.data['stateCode'] == 200) {
         return right(unit);
       } else {
-        return left(const Failure.server());
+        return left(Failure.server(response.data['message'] as String?));
       }
     } on DioError catch (e) {
       if (e.isConnectionError) {
@@ -48,12 +49,15 @@ class BarcodeScanner {
     try {
       final response = await _dio.post(
         '/close-cheque',
-        data: FormData.fromMap({"id": user, 'order_id': orderId}),
+        data: FormData.fromMap({
+          "id": user?.id,
+          'order_id': orderId,
+        }),
       );
       if (response.statusCode == 200 && response.data['stateCode'] == 200) {
         return right(unit);
       } else {
-        return left(const Failure.server());
+        return left(Failure.server(response.data['message'] as String?));
       }
     } on DioError catch (e) {
       if (e.isConnectionError) {

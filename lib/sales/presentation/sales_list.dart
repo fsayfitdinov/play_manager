@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:pull_to_refresh/pull_to_refresh.dart';
 
-import '../../core/domain/order.dart';
-import 'components/data_row_list.dart';
-import 'components/headers.dart';
+import 'package:play_manager/core/domain/order.dart';
+import 'package:play_manager/sales/presentation/components/data_row_list.dart';
+import 'package:play_manager/sales/presentation/components/headers.dart';
 
 class SalesList extends StatelessWidget {
   final List<OrderModel> orders;

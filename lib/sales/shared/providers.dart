@@ -13,15 +13,13 @@ final dataGetterProvider = Provider(
   ),
 );
 
-final dataNotifierProvider =
-    StateNotifierProvider<DataNotifier, DataNotifierState>(
+final dataNotifierProvider = StateNotifierProvider<DataNotifier, DataNotifierState>(
   (ref) => DataNotifier(
     ref.watch(dataGetterProvider),
   ),
 );
 
-final barcodeScanNotifierProvider =
-    StateNotifierProvider.autoDispose<BarcodeScanNotifier, BarcodeScanState>(
+final barcodeScanNotifierProvider = StateNotifierProvider.autoDispose<BarcodeScanNotifier, BarcodeScanState>(
   (ref) => BarcodeScanNotifier(
     ref.watch(barcodeScanProvider),
   ),

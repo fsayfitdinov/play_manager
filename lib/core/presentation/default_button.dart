@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'constants.dart';
+import 'package:play_manager/core/presentation/constants.dart';
 
 class DefaultGradientBtn extends StatelessWidget {
   final String title;

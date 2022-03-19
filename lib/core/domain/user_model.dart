@@ -8,13 +8,12 @@ part 'user_model.g.dart';
 @HiveType(typeId: 0)
 class UserModel with _$UserModel {
   const factory UserModel({
-    @HiveField(0) int? id,
-    @HiveField(1) int? branchId,
-    @HiveField(2) int? roomId,
-    @HiveField(3) String? name,
-    @HiveField(4) String? phone,
+    @HiveField(0) required int id,
+    @HiveField(1) required int branchId,
+    @JsonKey(defaultValue: 0) @HiveField(2) required int roomId,
+    @JsonKey(defaultValue: '') @HiveField(3) required String name,
+    @JsonKey(defaultValue: '') @HiveField(4) required String phone,
   }) = _UserModel;
 
-  factory UserModel.fromJson(Map<String, dynamic> json) =>
-      _$UserModelFromJson(json);
+  factory UserModel.fromJson(Map<String, dynamic> json) => _$UserModelFromJson(json);
 }

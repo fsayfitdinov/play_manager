@@ -211,19 +211,22 @@ class _$_AppInjections extends _AppInjections {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _AppInjections &&
-            (identical(other.appConfig, appConfig) ||
-                other.appConfig == appConfig) &&
-            (identical(other.details, details) || other.details == details) &&
-            (identical(other.dataStore, dataStore) ||
-                other.dataStore == dataStore) &&
-            (identical(other.sharedPrefs, sharedPrefs) ||
-                other.sharedPrefs == sharedPrefs) &&
-            (identical(other.dio, dio) || other.dio == dio));
+            const DeepCollectionEquality().equals(other.appConfig, appConfig) &&
+            const DeepCollectionEquality().equals(other.details, details) &&
+            const DeepCollectionEquality().equals(other.dataStore, dataStore) &&
+            const DeepCollectionEquality()
+                .equals(other.sharedPrefs, sharedPrefs) &&
+            const DeepCollectionEquality().equals(other.dio, dio));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, appConfig, details, dataStore, sharedPrefs, dio);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(appConfig),
+      const DeepCollectionEquality().hash(details),
+      const DeepCollectionEquality().hash(dataStore),
+      const DeepCollectionEquality().hash(sharedPrefs),
+      const DeepCollectionEquality().hash(dio));
 
   @JsonKey(ignore: true)
   @override

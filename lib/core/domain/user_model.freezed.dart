@@ -22,11 +22,11 @@ class _$UserModelTearOff {
   const _$UserModelTearOff();
 
   _UserModel call(
-      {@HiveField(0) int? id,
-      @HiveField(1) int? branchId,
-      @HiveField(2) int? roomId,
-      @HiveField(3) String? name,
-      @HiveField(4) String? phone}) {
+      {@HiveField(0) required int id,
+      @HiveField(1) required int branchId,
+      @JsonKey(defaultValue: 0) @HiveField(2) required int roomId,
+      @JsonKey(defaultValue: '') @HiveField(3) required String name,
+      @JsonKey(defaultValue: '') @HiveField(4) required String phone}) {
     return _UserModel(
       id: id,
       branchId: branchId,
@@ -47,15 +47,18 @@ const $UserModel = _$UserModelTearOff();
 /// @nodoc
 mixin _$UserModel {
   @HiveField(0)
-  int? get id => throw _privateConstructorUsedError;
+  int get id => throw _privateConstructorUsedError;
   @HiveField(1)
-  int? get branchId => throw _privateConstructorUsedError;
+  int get branchId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: 0)
   @HiveField(2)
-  int? get roomId => throw _privateConstructorUsedError;
+  int get roomId => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: '')
   @HiveField(3)
-  String? get name => throw _privateConstructorUsedError;
+  String get name => throw _privateConstructorUsedError;
+  @JsonKey(defaultValue: '')
   @HiveField(4)
-  String? get phone => throw _privateConstructorUsedError;
+  String get phone => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -68,11 +71,11 @@ abstract class $UserModelCopyWith<$Res> {
   factory $UserModelCopyWith(UserModel value, $Res Function(UserModel) then) =
       _$UserModelCopyWithImpl<$Res>;
   $Res call(
-      {@HiveField(0) int? id,
-      @HiveField(1) int? branchId,
-      @HiveField(2) int? roomId,
-      @HiveField(3) String? name,
-      @HiveField(4) String? phone});
+      {@HiveField(0) int id,
+      @HiveField(1) int branchId,
+      @JsonKey(defaultValue: 0) @HiveField(2) int roomId,
+      @JsonKey(defaultValue: '') @HiveField(3) String name,
+      @JsonKey(defaultValue: '') @HiveField(4) String phone});
 }
 
 /// @nodoc
@@ -95,23 +98,23 @@ class _$UserModelCopyWithImpl<$Res> implements $UserModelCopyWith<$Res> {
       id: id == freezed
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       branchId: branchId == freezed
           ? _value.branchId
           : branchId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       roomId: roomId == freezed
           ? _value.roomId
           : roomId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       name: name == freezed
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
       phone: phone == freezed
           ? _value.phone
           : phone // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
     ));
   }
 }
@@ -123,11 +126,11 @@ abstract class _$UserModelCopyWith<$Res> implements $UserModelCopyWith<$Res> {
       __$UserModelCopyWithImpl<$Res>;
   @override
   $Res call(
-      {@HiveField(0) int? id,
-      @HiveField(1) int? branchId,
-      @HiveField(2) int? roomId,
-      @HiveField(3) String? name,
-      @HiveField(4) String? phone});
+      {@HiveField(0) int id,
+      @HiveField(1) int branchId,
+      @JsonKey(defaultValue: 0) @HiveField(2) int roomId,
+      @JsonKey(defaultValue: '') @HiveField(3) String name,
+      @JsonKey(defaultValue: '') @HiveField(4) String phone});
 }
 
 /// @nodoc
@@ -151,23 +154,23 @@ class __$UserModelCopyWithImpl<$Res> extends _$UserModelCopyWithImpl<$Res>
       id: id == freezed
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       branchId: branchId == freezed
           ? _value.branchId
           : branchId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       roomId: roomId == freezed
           ? _value.roomId
           : roomId // ignore: cast_nullable_to_non_nullable
-              as int?,
+              as int,
       name: name == freezed
           ? _value.name
           : name // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
       phone: phone == freezed
           ? _value.phone
           : phone // ignore: cast_nullable_to_non_nullable
-              as String?,
+              as String,
     ));
   }
 }
@@ -176,30 +179,33 @@ class __$UserModelCopyWithImpl<$Res> extends _$UserModelCopyWithImpl<$Res>
 @JsonSerializable()
 class _$_UserModel implements _UserModel {
   const _$_UserModel(
-      {@HiveField(0) this.id,
-      @HiveField(1) this.branchId,
-      @HiveField(2) this.roomId,
-      @HiveField(3) this.name,
-      @HiveField(4) this.phone});
+      {@HiveField(0) required this.id,
+      @HiveField(1) required this.branchId,
+      @JsonKey(defaultValue: 0) @HiveField(2) required this.roomId,
+      @JsonKey(defaultValue: '') @HiveField(3) required this.name,
+      @JsonKey(defaultValue: '') @HiveField(4) required this.phone});
 
   factory _$_UserModel.fromJson(Map<String, dynamic> json) =>
       _$$_UserModelFromJson(json);
 
   @override
   @HiveField(0)
-  final int? id;
+  final int id;
   @override
   @HiveField(1)
-  final int? branchId;
+  final int branchId;
   @override
+  @JsonKey(defaultValue: 0)
   @HiveField(2)
-  final int? roomId;
+  final int roomId;
   @override
+  @JsonKey(defaultValue: '')
   @HiveField(3)
-  final String? name;
+  final String name;
   @override
+  @JsonKey(defaultValue: '')
   @HiveField(4)
-  final String? phone;
+  final String phone;
 
   @override
   String toString() {
@@ -211,17 +217,21 @@ class _$_UserModel implements _UserModel {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _UserModel &&
-            (identical(other.id, id) || other.id == id) &&
-            (identical(other.branchId, branchId) ||
-                other.branchId == branchId) &&
-            (identical(other.roomId, roomId) || other.roomId == roomId) &&
-            (identical(other.name, name) || other.name == name) &&
-            (identical(other.phone, phone) || other.phone == phone));
+            const DeepCollectionEquality().equals(other.id, id) &&
+            const DeepCollectionEquality().equals(other.branchId, branchId) &&
+            const DeepCollectionEquality().equals(other.roomId, roomId) &&
+            const DeepCollectionEquality().equals(other.name, name) &&
+            const DeepCollectionEquality().equals(other.phone, phone));
   }
 
   @override
-  int get hashCode =>
-      Object.hash(runtimeType, id, branchId, roomId, name, phone);
+  int get hashCode => Object.hash(
+      runtimeType,
+      const DeepCollectionEquality().hash(id),
+      const DeepCollectionEquality().hash(branchId),
+      const DeepCollectionEquality().hash(roomId),
+      const DeepCollectionEquality().hash(name),
+      const DeepCollectionEquality().hash(phone));
 
   @JsonKey(ignore: true)
   @override
@@ -236,30 +246,34 @@ class _$_UserModel implements _UserModel {
 
 abstract class _UserModel implements UserModel {
   const factory _UserModel(
-      {@HiveField(0) int? id,
-      @HiveField(1) int? branchId,
-      @HiveField(2) int? roomId,
-      @HiveField(3) String? name,
-      @HiveField(4) String? phone}) = _$_UserModel;
+          {@HiveField(0) required int id,
+          @HiveField(1) required int branchId,
+          @JsonKey(defaultValue: 0) @HiveField(2) required int roomId,
+          @JsonKey(defaultValue: '') @HiveField(3) required String name,
+          @JsonKey(defaultValue: '') @HiveField(4) required String phone}) =
+      _$_UserModel;
 
   factory _UserModel.fromJson(Map<String, dynamic> json) =
       _$_UserModel.fromJson;
 
   @override
   @HiveField(0)
-  int? get id;
+  int get id;
   @override
   @HiveField(1)
-  int? get branchId;
+  int get branchId;
   @override
+  @JsonKey(defaultValue: 0)
   @HiveField(2)
-  int? get roomId;
+  int get roomId;
   @override
+  @JsonKey(defaultValue: '')
   @HiveField(3)
-  String? get name;
+  String get name;
   @override
+  @JsonKey(defaultValue: '')
   @HiveField(4)
-  String? get phone;
+  String get phone;
   @override
   @JsonKey(ignore: true)
   _$UserModelCopyWith<_UserModel> get copyWith =>

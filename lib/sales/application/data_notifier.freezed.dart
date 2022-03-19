@@ -260,26 +260,25 @@ class _$_DataNotifierState implements _DataNotifierState {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
             other is _DataNotifierState &&
-            (identical(other.loading, loading) || other.loading == loading) &&
-            (identical(other.hasError, hasError) ||
-                other.hasError == hasError) &&
-            (identical(other.error, error) || other.error == error) &&
+            const DeepCollectionEquality().equals(other.loading, loading) &&
+            const DeepCollectionEquality().equals(other.hasError, hasError) &&
+            const DeepCollectionEquality().equals(other.error, error) &&
             const DeepCollectionEquality().equals(other.services, services) &&
             const DeepCollectionEquality().equals(other.orders, orders) &&
             const DeepCollectionEquality().equals(other.rooms, rooms) &&
-            (identical(other.branch, branch) || other.branch == branch));
+            const DeepCollectionEquality().equals(other.branch, branch));
   }
 
   @override
   int get hashCode => Object.hash(
       runtimeType,
-      loading,
-      hasError,
-      error,
+      const DeepCollectionEquality().hash(loading),
+      const DeepCollectionEquality().hash(hasError),
+      const DeepCollectionEquality().hash(error),
       const DeepCollectionEquality().hash(services),
       const DeepCollectionEquality().hash(orders),
       const DeepCollectionEquality().hash(rooms),
-      branch);
+      const DeepCollectionEquality().hash(branch));
 
   @JsonKey(ignore: true)
   @override

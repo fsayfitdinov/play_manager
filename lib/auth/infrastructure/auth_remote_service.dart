@@ -35,8 +35,7 @@ class AuthRemoteService {
       );
       if (response.statusCode == 200) {
         if (response.data['stateCode'] == 200) {
-          final responseData =
-              (response.data['data'] as Map).cast<String, dynamic>();
+          final responseData = (response.data['data'] as Map).cast<String, dynamic>();
           final user = UserModel.fromJson(responseData);
           return right(user);
         } else {

@@ -9,7 +9,9 @@ class AuthLocalService {
   final box = Hive.box<UserModel>(HiveDataStore.userBox);
 
   UserModel? setUser() {
-    return box.get('user');
+    final user = box.get('user');
+    // debugPrint(user?.id);
+    return user;
   }
 
   Future<void> addUser({

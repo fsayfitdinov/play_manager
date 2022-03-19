@@ -7,6 +7,7 @@ import 'package:play_manager/auth/shared/providers.dart';
 import 'package:play_manager/core/presentation/constants.dart';
 import 'package:play_manager/core/shared/providers.dart';
 import 'package:play_manager/core/presentation/routes/app_router.gr.dart';
+import 'package:wakelock/wakelock.dart';
 
 class AppWidget extends ConsumerWidget {
   AppWidget({Key? key}) : super(key: key);
@@ -16,7 +17,7 @@ class AppWidget extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     ref.listen<AuthState>(
       authNotifierProvider,
-      (state) {
+      (pr, state) {
         state.maybeMap(
           authenticated: (_) => appRouter.pushAndPopUntil(
             const HomeRoute(),
@@ -26,11 +27,11 @@ class AppWidget extends ConsumerWidget {
             const SignInRoute(),
             predicate: (route) => false,
           ),
- 
           orElse: () {},
         );
       },
     );
+    Wakelock.enable();
     return MaterialApp.router(
       debugShowCheckedModeBanner: false,
       routeInformationParser: appRouter.defaultRouteParser(),

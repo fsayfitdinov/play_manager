@@ -16,12 +16,29 @@ class UserModelAdapter extends TypeAdapter<UserModel> {
     final fields = <int, dynamic>{
       for (int i = 0; i < numOfFields; i++) reader.readByte(): reader.read(),
     };
-    return UserModel();
+    return UserModel(
+      id: fields[0] as int,
+      branchId: fields[1] as int,
+      roomId: fields[2] as int,
+      name: fields[3] as String,
+      phone: fields[4] as String,
+    );
   }
 
   @override
   void write(BinaryWriter writer, UserModel obj) {
-    writer..writeByte(0);
+    writer
+      ..writeByte(5)
+      ..writeByte(0)
+      ..write(obj.id)
+      ..writeByte(1)
+      ..write(obj.branchId)
+      ..writeByte(2)
+      ..write(obj.roomId)
+      ..writeByte(3)
+      ..write(obj.name)
+      ..writeByte(4)
+      ..write(obj.phone);
   }
 
   @override
@@ -40,11 +57,11 @@ class UserModelAdapter extends TypeAdapter<UserModel> {
 // **************************************************************************
 
 _$_UserModel _$$_UserModelFromJson(Map<String, dynamic> json) => _$_UserModel(
-      id: json['id'] as int?,
-      branchId: json['branchId'] as int?,
-      roomId: json['roomId'] as int?,
-      name: json['name'] as String?,
-      phone: json['phone'] as String?,
+      id: json['id'] as int,
+      branchId: json['branchId'] as int,
+      roomId: json['roomId'] as int? ?? 0,
+      name: json['name'] as String? ?? '',
+      phone: json['phone'] as String? ?? '',
     );
 
 Map<String, dynamic> _$$_UserModelToJson(_$_UserModel instance) =>
