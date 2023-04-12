@@ -38,7 +38,7 @@ dependencies:
   material_design_icons_flutter: ^5.0.6595
   flutter_barcode_scanner: ^2.0.0
   flutter_svg: ^1.0.0
-  dio: ^4.0.4
+  dio: ^5.1.1
   json_annotation: ^4.4.0
   freezed_annotation: ^1.1.0
   flash: ^2.0.3+1
